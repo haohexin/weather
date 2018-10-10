@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0486c25e-b962-4ca1-99e2-24733ad54782" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/WeatherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/WeatherTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,7 @@
           <entry key="gitignore" value="1" />
           <entry key="json" value="4" />
           <entry key="lock" value="1" />
+          <entry key="md" value="1" />
           <entry key="php" value="32" />
           <entry key="php_cs" value="1" />
         </counts>
@@ -38,6 +38,7 @@
         <counts>
           <entry key="Git file" value="1" />
           <entry key="JSON" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="32" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -45,12 +46,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="11" />
+          <entry key="md" value="1" />
           <entry key="php" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="11" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="26" />
         </counts>
       </usages-collector>
@@ -66,10 +69,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Weather.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="50" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="29">
+                <caret line="1" column="115" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="115" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -92,8 +98,9 @@
         <option value="$PROJECT_DIR$/src/Exceptions/HttpException.php" />
         <option value="$PROJECT_DIR$/src/ServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Weather.php" />
         <option value="$PROJECT_DIR$/tests/WeatherTest.php" />
+        <option value="$PROJECT_DIR$/src/Weather.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -122,7 +129,6 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
@@ -131,7 +137,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
@@ -142,9 +147,10 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
@@ -308,12 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539152740537</updated>
-      <workItem from="1539152742284" duration="2366000" />
+      <workItem from="1539152742284" duration="2528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2366000" />
+    <option name="totallyTimeSpent" value="2528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -416,8 +422,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Weather.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="1044">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="29">
+            <caret line="1" column="115" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="115" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
 # weather
+[![Build Status](https://travis-ci.org/haohexin/weather.svg?branch=master)](https://travis-ci.org/haohexin/weather)
 
 A weather SDK
 
