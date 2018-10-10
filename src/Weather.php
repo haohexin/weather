@@ -47,6 +47,7 @@ class Weather
     }
 
     public function getWeather($city, $type = 'base', $format = 'json')
+        
     {$url = 'https://restapi.amap.com/v3/weather/weatherInfo';
 
         if (!\in_array(\strtolower($format), ['xml', 'json'])) {
